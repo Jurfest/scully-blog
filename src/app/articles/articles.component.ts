@@ -9,7 +9,7 @@ import { filter, shareReplay, map } from 'rxjs/operators';
   styleUrls: ['./articles.component.scss']
 })
 export class ArticlesComponent implements OnInit {
-  posts: ScullyRoute[] = [];
+  // posts: ScullyRoute[] = [];
   // private routeSub: Subscription | undefined;
 
   posts$: Observable<ScullyRoute[]> = of([]);
