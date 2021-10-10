@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 import { ContactComponent } from './contact/contact.component';
+
+// TODO: - Create simple guard and add canActivate
 
 const routes: Routes = [
   {
