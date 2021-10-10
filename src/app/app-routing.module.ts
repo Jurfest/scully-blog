@@ -8,14 +8,14 @@ import { ContactComponent } from './contact/contact.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'contact',
-    pathMatch: 'full'
+    pathMatch: 'full',
+    redirectTo: 'articles'
   },
   { path: 'contact', component: ContactComponent },
   { path: 'articles', loadChildren: () => import('./articles/articles.module').then(m => m.ArticlesModule) },
   {
     path: '**',
-    redirectTo: 'contact'
+    redirectTo: 'articles'
   }
 ];
 
