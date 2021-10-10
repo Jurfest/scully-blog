@@ -1,4 +1,10 @@
 # Add files here to ignore them from prettier formatting
 
-/dist
+/.husky
+/.scully
 /coverage
+/cypress
+/dist
+/mdfiles
+/node_modules
+/scully
