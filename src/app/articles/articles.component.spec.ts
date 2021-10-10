@@ -14,6 +14,7 @@ describe('ArticlesComponent', () => {
   });
 
   beforeEach(() => {
+    pending();
     fixture = TestBed.createComponent(ArticlesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
